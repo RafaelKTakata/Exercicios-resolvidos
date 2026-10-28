@@ -1,0 +1,55 @@
+DO FLUXOGRAMA AO PSEUDOCÓDIGO
+
+1. POSITIVO, NEGATIVO OU ZERO
+
+INÍCIO
+    LER N
+    SE N > 0 ENTÃO
+        ESCREVER "Positivo"
+    SENÃO
+        SE N < 0 ENTÃO
+            ESCREVER "Negativo"
+        SENÃO
+            ESCREVER "Zero"
+        FIM SE
+    FIM SE
+FIM
+
+
+2. PODE CONDUZIR?
+
+INÍCIO
+    LER idade
+    SE idade >= 18 ENTÃO
+        ESCREVER "Pode conduzir"
+    SENÃO
+        ESCREVER "Ainda não"
+    FIM SE
+FIM
+
+
+3. O MAIOR DOS TRÊS NÚMEROS
+
+INÍCIO
+    LER A, B, C
+    maior ← A
+    SE B > maior ENTÃO
+        maior ← B
+    FIM SE
+    SE C > maior ENTÃO
+        maior ← C
+    FIM SE
+    ESCREVER maior
+FIM
+
+
+4. OS PRIMEIROS 10 MÚLTIPLOS DE UM NÚMERO
+
+INÍCIO
+    LER N
+    i ← 1
+    ENQUANTO i <= 10 FAZER
+        ESCREVER N × i
+        i ← i + 1
+    FIM ENQUANTO
+FIM

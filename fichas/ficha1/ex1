@@ -1,0 +1,21 @@
+CAÇAR A AMBIGUIDADE
+
+1. "Apaga os ficheiros antigos."
+    A: apaga os ficheiros com mais de certo tempo (critério de data).
+    B: apaga as versões anteriores dos ficheiros, mantendo só as mais recentes.
+   Reescrita: Apaga todos os ficheiros desta pasta cuja data de modificação seja anterior a 1 de janeiro de 2026.
+
+2. "Ordena a lista pelos melhores resultados."
+    A: ordena pelo desempenho, com os itens de melhor desempenho no topo.
+    B: ordena pela relevância dos resultados de pesquisa, com os mais relevantes primeiro.
+   Reescrita: Ordena a lista de alunos pela nota final, da mais alta para a mais baixa.
+
+3. "Avisa o professor se faltarem muitos alunos."
+    A: avisa se muitos alunos estiverem ausentes da aula.
+    B: avisa se faltarem muitos alunos para completar a turma (poucas inscrições).
+   Reescrita: Avisa o professor se mais de 5 alunos estiverem ausentes da aula.
+
+4. "Dá um desconto grande aos clientes habituais."
+    A: «habituais» = clientes que compram com frequência.
+    B: «habituais» = clientes antigos, registados há muito tempo (e «grande» não define o valor do desconto).
+   Reescrita: Aplica um desconto de 20% a todos os clientes com pelo menos 5 compras nos últimos 12 meses.

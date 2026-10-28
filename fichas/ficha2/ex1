@@ -1,0 +1,7 @@
+É ou não é um algoritmo? 
+Para cada sequência, diz que propriedade falha (ou escreve «é válido»). 
+1. «Enquanto houver água no copo, bebe um gole.» (o copo nunca é enchido) é valido
+2. «Soma 5 ao número escolhido e escreve o resultado.» é válido
+3. «Escolhe um número simpático e multiplica-o por 2.» não é um algoritmo, falta a precisão   
+4. «Lê três números. Escreve o do meio.»  não é válido, falta precisão ou seja é ambígua
+5. «Aquece o forno. Coze o bolo. Serve.» não é algoritmo pois faltam dados, por exemplo temperatura e etc 

@@ -1,0 +1,10 @@
+DESAFIO
+Inicio
+ ler input
+  se input=0
+   parar
+ conta=quantidade-1
+ soma=soma
+ escrever conta
+ escrever soma
+Fim

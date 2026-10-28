@@ -1,0 +1,13 @@
+DO PORTUGUÊS PARA A REGRA
+
+1. Tem positiva quem tiver 10 ou mais.
+   Regra: se nota >= 10, então positiva, senão negativa.
+
+2. Passa quem tiver média igual ou superior a 9,5 e nenhuma nota abaixo de 8.
+   Regra: se média >= 9,5 e nota_mínima >= 8, então passa, senão não passa.
+
+3. O bilhete é gratuito para menores de 6 anos e maiores de 65.
+   Regra: se idade < 6 ou idade > 65, então bilhete gratuito, senão bilhete pago.
+   
+4. Há desconto se for sócio ou se comprar mais de 3 bilhetes.
+   Regra: se sócio = 1 ou bilhetes > 3, então desconto, senão sem desconto.
