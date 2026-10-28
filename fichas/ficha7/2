@@ -1,5 +1,0 @@
-13 <= idade <= 19
-n % 2 == 0 and n > 0
-media >= 9.5 and faltas <= 10
-dia not in ("sábado", "domingo")
-(ano % 4 == 0 and ano % 100 != 0) or ano % 400 == 0
