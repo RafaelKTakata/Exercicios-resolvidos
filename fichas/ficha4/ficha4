@@ -1,0 +1,84 @@
+ERRO DE SINTAXE: o programa nao respeita as regras das linguagens e nao consegue ser enterpretado e
+ compilado corretamente
+
+ERRO DE EXECUÇÃO: o programa começa a correr, mas ocorre um problema durante a execução, por exemplo a
+ divisão por 0
+
+ERRO DE LOGICA: O programa executa mas produz um resultado incorreto.
+
+########################################################################################################
+
+encontra o erro em cada uma
+print("Resultado: " + 5)                                     
+ execução
+media = soma / numero_de_alunos # numero_de_alunos vale 0   
+ execução
+if idade > 18: print("Maior de idade") # e quem tem 18?      
+ logica
+print("Olá"                                                  
+ sintaxe
+perimetro = lado * 4                                         
+ logica
+area = lado + lado sintaxe                                   
+ logica
+
+#############################################################################
+
+2. Traçagem
+Constrói a tabela de traçagem completa para o algoritmo seguinte, com n = 4. Uma coluna
+para i, outra para produto.
+o que faz este algoritmo?
+
+produto ← 1
+i ← 1
+Enquanto i <= n fazer
+produto ← produto * i
+i ← i + 1
+Fim Enquanto
+Escrever produto
+
+1. Quantas vezes corre o corpo do ciclo?
+ 4
+2. Que valor é escrito no fim?
+ 24
+3. Em duas palavras, o que calcula este algoritmo?
+
+#############################################################################
+
+3. Encontrar o defeito
+
+
+Este algoritmo deveria contar quantos números de uma lista são positivos. Tem um erro de
+lógica. Faz a traçagem com a lista 3, −1, 5 e encontra-o.
+esperado: 2 · obtido: 1
+
+contador ← 0
+Para cada numero da lista fazer
+Se numero > 0 então
+contador + 1
+Fim Se
+Fim Para
+Escrever contador
+
+#############################################################################
+
+4. Escolher os testes
+Para um algoritmo que diz se um aluno «Passa» (média ≥ 9,5) ou «Reprova», escreve quatro
+casos de teste — um normal, um de fronteira, um especial e um inválido — e o resultado
+esperado de cada um.
+
+caso normal: 8,3 # um numero qualquer dentro dos valores permitidos
+caso de fronteira: 9 e 10  # dois valores onde oa estados são diferentes 
+caso especial: 9,5 # ponto exato que o estado muda
+caso invalido: 90 # um valor invalido ou seja fora de neste caso 0-20
+
+#############################################################################
+
+Desafio
+Pega no algoritmo da ficha 3 que lê números até aparecer o 0. Escreve os casos de teste que
+provam que o 0 não é contado — incluindo o caso em que o utilizador escreve 0 logo à primeira.
+
+caso normal: 3 ou 0 por exemplo
+caso de fronteira: 1 e 0 por exemplo
+caso especial: 0
+caso invalido: b
